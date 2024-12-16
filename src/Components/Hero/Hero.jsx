@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { SlideUp } from "../Utility/animation,jsx";
 import HeroImg from "../../assets/IMG-20241114-WA0020.jpg";
@@ -15,7 +16,7 @@ const Hero = () => {
             whileInView={"visible"}
             className="text-lg text-gray-600 hover:text-purple-700 transition-all duration-300 lg:text-3xl"
           >
-            Hey, I'm Peter
+            Hey, I{"'"}m Peter
           </motion.p>
           <p className="text-6xl font-bold md:text-5xl lg:text-7xl md:gap-5 ">
             <span className="text-purple-700">Front</span>end Developer

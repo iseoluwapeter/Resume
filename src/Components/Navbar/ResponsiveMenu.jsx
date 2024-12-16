@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 import { motion, AnimatePresence } from "framer-motion";
 import { NavLink } from "react-router-dom";
 
@@ -30,6 +30,10 @@ const ResponsiveMenu = ({ isOpen }) => {
       )}
     </AnimatePresence>
   );
+};
+
+ResponsiveMenu.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
 };
 
 export default ResponsiveMenu;

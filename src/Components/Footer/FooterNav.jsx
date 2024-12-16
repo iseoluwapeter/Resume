@@ -1,4 +1,4 @@
-import React from "react";
+
 import { NavLink } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
 import { MdWhatsapp } from "react-icons/md";

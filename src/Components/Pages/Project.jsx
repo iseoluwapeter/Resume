@@ -1,6 +1,6 @@
-import React from "react";
+// import React from "react";
 import Projects from "../Projects/Projects";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import ProjectPageImg from "../../assets/pexels-markusspiske-4439901.jpg";
 
 const Project = () => {
