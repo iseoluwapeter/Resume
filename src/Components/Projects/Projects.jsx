@@ -1,6 +1,6 @@
 // import React from "react";
 import ProjectImg1 from "../../assets/Screenshot 2024-11-28 132259.png";
-// import Project_Img from "../../assets/plant website.png";
+import ProjectImg2 from '../../assets/Screenshot 2025-01-02 111136.png'
 import ProjectImg3 from "../../assets/sapphire estate.png";
 import ProjectImg4 from "../../assets/spotify.png";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -46,9 +46,9 @@ const Projects = () => {
         {/* project2 */}
 
         <div className="space-y-2">
-          <div className=" border border-purple-300 rounded-lg p-7 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
+          <div className=" border border-purple-300 rounded-lg p-4 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
             <div>
-              <img src={ProjectImg4} alt="" />
+              <img src={ProjectImg2} alt="" />
             </div>
           </div>
           <div>

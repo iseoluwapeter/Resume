@@ -9,6 +9,7 @@ const Hero = () => {
     <div>
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-5  relative">
         {/* Hero details  */}
+        
         <div className="flex flex-col  text-center md:text-start md:py-7 space-y-4 ">
           <motion.p
             variants={SlideUp(1.0)}
