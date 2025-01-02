@@ -1,6 +1,6 @@
 // import React from "react";
 import ProjectImg1 from "../../assets/Screenshot 2024-11-28 132259.png";
-import ProjectImg2 from '../../assets/Screenshot 2025-01-02 111136.png'
+import ProjectImg2 from '../../assets/blog.png'
 import ProjectImg3 from "../../assets/sapphire estate.png";
 import ProjectImg4 from "../../assets/spotify.png";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -46,27 +46,25 @@ const Projects = () => {
         {/* project2 */}
 
         <div className="space-y-2">
-          <div className=" border border-purple-300 rounded-lg p-4 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
+          <div className=" border border-purple-300 rounded-lg p-3 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
             <div>
               <img src={ProjectImg2} alt="" />
             </div>
           </div>
           <div>
             <p className="flex items-center font-semibold text-lg">
-              IndorePlants.
+              Meta Blog
               <a
-                rel="noopener"
-                target="_blank"
-                href="https://dynamic-cheesecake-700772.netlify.app/"
+                // rel="noopener"
+                // target="_blank"
+                // href="https://dynamic-cheesecake-700772.netlify.app/"
                 className="text-xl text-purple-700 font-bold"
               >
                 <FiArrowUpRight />
               </a>
             </p>
             <p className="text-md font-medium text-gray-500 ">
-              IndorePlants is an online website that showcases and gives
-              education on plants, thier usefulness and benefits to human
-              consumption.
+              Meta Blog is a private blog website that allows to showcase and publish blogs.
             </p>
           </div>
         </div>
@@ -120,9 +118,7 @@ const Projects = () => {
               </a>
             </p>
             <p className="text-md font-medium text-gray-500 ">
-              Velot Mechanical Factory is a enginnering firm that works to
-              several mechanical solutions through applications of mechanical
-              machines.
+              This music player website is a music streaming website that comprises of advanced features depending on user's preference
             </p>
           </div>
         </div>
