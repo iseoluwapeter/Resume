@@ -1,5 +1,4 @@
-
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
 import { MdWhatsapp } from "react-icons/md";
 import { LuLinkedin } from "react-icons/lu";
@@ -10,7 +9,7 @@ const FooterNav = () => {
     <div className="container py-7">
       <div className="flex justify-between items-center">
         {/* Footer Links  */}
-        <nav>
+        {/* <nav>
           <ul className="flex gap-4 font-semibold text-sm md:text-lg text-gray-800">
             <li>
               <NavLink to="/">Home</NavLink>
@@ -18,11 +17,9 @@ const FooterNav = () => {
             <li>
               <NavLink to="/Project">Projects</NavLink>
             </li>
-            {/* <li>
-              <NavLink to="/about">About</NavLink>
-            </li> */}
+            
           </ul>
-        </nav>
+        </nav> */}
         {/* Handles */}
         <div className="flex gap-7 text-lg md:text-2xl text-gray-700">
           <a

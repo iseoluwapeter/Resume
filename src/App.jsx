@@ -9,7 +9,7 @@ import Project from "./Components/Pages/Project";
 const App = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="about" element={<About />} /> */}
