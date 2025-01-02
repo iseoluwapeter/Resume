@@ -21,7 +21,7 @@ const Experience = () => {
           <div className="text-gray-600 md:text-2xl ">
             Engineer
             <span className="text-purple-600 font-semibold">
-              @ Treesoft developer
+              @ Treesoft NG
             </span>
           </div>
         </div>

@@ -37,7 +37,7 @@ const Projects = () => {
               </a>
             </div>
             <p className="text-md font-medium text-gray-500 ">
-              Apex-Tutors is can online school that provides educational
+              Apex-Tutors is an online school that provides educational
               resources and tutoring to students
             </p>
           </div>
@@ -92,8 +92,8 @@ const Projects = () => {
             </p>
             <p className="text-md font-medium text-gray-500 ">
               Sapphire Estate is a real estate agency aimed at imporving the
-              housing industry of the country. They are working to make sure
-              thousands house owners before year 2026
+              housing industry in Nigeria. They are working to make sure there are
+              millions house owners before year 2026
             </p>
           </div>
         </div>
