@@ -6,12 +6,12 @@ export const navbarMenu = [
   },
   {
     id: 2,
-    title: "Projects",
-    link: "Project",
+    title: "AllProjects",
+    link: "AllProject",
   },
   // {
   //   id: 3,
-  //   title: "About",
+  //   title: "AllProjects",
   //   link: "About",
   // },
 ];

@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { SlideUp } from "../Utility/animation,jsx";
 import HeroImg from "../../assets/IMG-20241114-WA0020.jpg";
@@ -9,13 +8,13 @@ const Hero = () => {
     <div>
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-5  relative">
         {/* Hero details  */}
-        
+
         <div className="flex flex-col  text-center md:text-start md:py-7 space-y-4 ">
           <motion.p
             variants={SlideUp(1.0)}
             initial="hidden"
             whileInView={"visible"}
-            className="text-lg text-gray-600 hover:text-purple-700 transition-all duration-300 lg:text-3xl"
+            className="text-lg text-gray-600 hover:text-purple-700 transition-all duration-300 lg:text-3xl pt-3"
           >
             Hey, I{"'"}m Peter
           </motion.p>
@@ -34,7 +33,7 @@ const Hero = () => {
               aria-label="mymail"
               rel="noopener"
               target="_blank"
-              className="bg-purple-700 rounded-lg p-2 text-white flex justify-centeritems-center px-3"
+              className="bg-purple-700 rounded-lg p-2 text-white flex justify-center items-center px-3"
             >
               Get in touch
             </a>

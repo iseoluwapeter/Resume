@@ -1,9 +1,15 @@
 // import React from "react";
+import { motion } from "framer-motion";
 import ProjectImg1 from "../../assets/Screenshot 2024-11-28 132259.png";
-import ProjectImg2 from '../../assets/blog.png'
+import ProjectImg2 from '../../assets/Screenshot 2025-01-30 005900.png'
 import ProjectImg3 from "../../assets/sapphire estate.png";
 import ProjectImg4 from "../../assets/spotify.png";
+import ProjectImg5 from "../../assets/Screenshot 2025-01-30 005032.png"
 import { FiArrowUpRight } from "react-icons/fi";
+import { NavLink } from "react-router-dom";
+import Footer from "../Footer/Footer";
+
+
 
 const Projects = () => {
   return (
@@ -16,7 +22,12 @@ const Projects = () => {
       </div>
 
       {/* project cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-9">
+      <motion.div
+        className="grid grid-cols-1 md:grid-cols-2 gap-9"
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+      >
         {/* project1 */}
         <div className="space-y-2">
           <div className=" border border-purple-300 rounded-lg p-5 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
@@ -46,7 +57,7 @@ const Projects = () => {
         {/* project2 */}
 
         <div className="space-y-2">
-          <div className=" border border-purple-300 rounded-lg p-3 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
+          <div className=" border border-purple-300 rounded-lg p-7 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
             <div>
               <img src={ProjectImg2} alt="" />
             </div>
@@ -55,16 +66,17 @@ const Projects = () => {
             <p className="flex items-center font-semibold text-lg">
               Meta Blog
               <a
-                // rel="noopener"
-                // target="_blank"
-                // href="https://dynamic-cheesecake-700772.netlify.app/"
+                rel="noopener"
+                target="_blank"
+                href="https://meta-blog-ly.vercel.app/"
                 className="text-xl text-purple-700 font-bold"
               >
                 <FiArrowUpRight />
               </a>
             </p>
             <p className="text-md font-medium text-gray-500 ">
-              Meta Blog is a private blog website that allows to showcase and publish blogs.
+              Meta Blog is a private blog website that allows to showcase and
+              publish blogs.
             </p>
           </div>
         </div>
@@ -91,9 +103,9 @@ const Projects = () => {
               </a>
             </p>
             <p className="text-md font-medium text-gray-500 ">
-              Sapphire Estate is a real estate agency aimed at imporving the
-              housing industry in Nigeria. They are working to make sure there are
-              millions house owners before year 2026
+              Sapphire Estate is a real estate agency aimed at improving the
+              housing industry in Nigeria. They are working to make sure there
+              are millions house owners before year 2026
             </p>
           </div>
         </div>
@@ -118,7 +130,70 @@ const Projects = () => {
               </a>
             </p>
             <p className="text-md font-medium text-gray-500 ">
-              This music player website is a music streaming website that comprises of advanced features depending on user's preference
+              This music player website is a music streaming website that
+              comprises of advanced features depending on user's preference
+            </p>
+          </div>
+        </div>
+
+        <div className="space-y-2">
+          <div className=" border border-purple-300 rounded-lg p-5 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
+            <div>
+              <img src={ProjectImg5} alt="" className="p-1" />
+            </div>
+          </div>
+          <div>
+            <p className="flex items-center font-semibold text-lg">
+              Weather Forecast App
+              <a
+                rel="noopener"
+                target="_blank"
+                href="https://weather-app-ly.vercel.app/"
+                className="text-xl text-purple-700 font-bold"
+              >
+                <FiArrowUpRight />
+              </a>
+            </p>
+            <p className="text-md font-medium text-gray-500 ">
+              This weather forecast app displays the weather condition of the
+              city requested by the user. This project makes use of Redux for
+              state management and Axios for data fetching
+            </p>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* footer  */}
+
+      <div className="container ">
+        {/* get in touch */}
+        <div className="flex flex-col justify-center items-center ">
+          <div className="py-10 space-y-4">
+            <p className="font-bold text-lg text-gray-600">
+              Interested in working with us{" "}
+              <span className="text-purple-700 ">?</span>
+            </p>
+
+            {/* CTA buttons  */}
+            <div className="flex justify-center  ">
+              <a
+                href="mailto:peteroluwa2019@gmail.com"
+                aria-label="mymail"
+                rel="noopener"
+                target="_blank"
+                className="bg-purple-700 rounded-lg p-2 text-white flex justify-center items-center px-3"
+              >
+                Get in touch
+              </a>
+             
+            </div>
+          </div>
+
+          {/* copyright */}
+
+          <div className="text-gray-600 border-t-2 border-gray-300 py-2 flex pb-3 ">
+            <p className="text-center text-sm md:text-[15px] pb-2">
+              2024 All Right Reserved. Made by Peter Oyerinde
             </p>
           </div>
         </div>

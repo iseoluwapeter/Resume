@@ -1,4 +1,4 @@
-
+import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
@@ -11,7 +11,12 @@ const Experience = () => {
       </div>
 
       {/* Experience slide */}
-      <div className="space-y-5">
+      <motion.div
+        className="space-y-5"
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+      >
         <div className="flex justify-start gap-16 items-center px-5 md:px-0">
           <div className="border-l-4 border-purple-700 px-2 font-semibold text-lg text-gray-600 md:text-2xl">
             Treesoft
@@ -20,9 +25,7 @@ const Experience = () => {
 
           <div className="text-gray-600 md:text-2xl ">
             Engineer
-            <span className="text-purple-600 font-semibold">
-              @ Treesoft NG
-            </span>
+            <span className="text-purple-600 font-semibold">@ Treesoft NG</span>
           </div>
         </div>
 
@@ -48,7 +51,7 @@ const Experience = () => {
             react.js
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-
+import { motion } from "framer-motion";
 
 const MyStory = () => {
   return (
@@ -11,7 +11,12 @@ const MyStory = () => {
       </div>
 
       {/* story details */}
-      <div className="space-y-4 text-gray-800 text-lg">
+      <motion.div
+        className="space-y-4 text-gray-800 text-lg"
+        initial={{ x: 100, opacity: 0 }} // Start off-screen (right)
+        animate={{ x: 0, opacity: 1 }} // Slide to normal position
+        transition={{ duration: 1, ease: "easeOut" }} // Smooth transition
+      >
         <p>
           My journey into as a{" "}
           <span className="text-purple-700">front-end developer</span> started
@@ -25,7 +30,7 @@ const MyStory = () => {
           oppurtunity to start putting in for freelance jobs
         </p>
         <p>
-          After some months of working for{" "}
+          After some months of working for a{" "}
           <span className="text-purple-700">photography brand</span>. I decided
           to transition to <span className="text-purple-700">Treesoft</span>{" "}
           which has helped me to really do what i love as a front-end developer
@@ -36,7 +41,7 @@ const MyStory = () => {
           this field in which I am still looking forward to learning more. And
           you know what? I love what i do!
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 };
