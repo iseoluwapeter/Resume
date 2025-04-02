@@ -1,11 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 // import Navbar from "./Components/Navbar/Navbar";
-import Home from "./Components/Pages/Home";
+
 // import About from "./Components/Pages/About";
 // import Project from "./Components/Pages/Project";
 // import Contact from './Components/Pages/Contact'
-const LazyProject= React.lazy(() => import('./Components/Projects/Projects'))
+const LazyProject = React.lazy(() => import("./Components/Projects/Projects"));
+const Home = React.lazy(() => import("./Components/Pages/Home"));
 
 const App = () => {
   return (

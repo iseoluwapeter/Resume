@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
 // import React from "react";
 import { motion } from "framer-motion";
 import ProjectImg1 from "../../assets/Screenshot 2024-11-28 132259.png";
-import ProjectImg2 from '../../assets/Screenshot 2025-01-30 005900.png'
+import ProjectImg2 from "../../assets/Screenshot 2025-01-30 005900.png";
 import ProjectImg3 from "../../assets/sapphire estate.png";
 import ProjectImg4 from "../../assets/spotify.png";
-import ProjectImg5 from "../../assets/Screenshot 2025-01-30 005032.png"
+import ProjectImg6 from "../../assets/anett.png";
+// import ProjectImg5 from "../../assets/Screenshot 2025-01-30 005032.png";
 import { FiArrowUpRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
@@ -28,6 +29,33 @@ const MoreProjects = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           {/* project1 */}
+          <div className="space-y-2">
+            <div className=" border border-purple-300 rounded-lg p-7 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
+              <div>
+                <img src={ProjectImg6} alt="" />
+              </div>
+            </div>
+            <div>
+              <div className=" flex items-center font-semibold text-lg">
+                Anettcom Technologies
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://anettcom.com/"
+                  className="text-xl text-purple-700 font-bold"
+                >
+                  <FiArrowUpRight />
+                </a>
+              </div>
+              <p className="text-md font-medium text-gray-500 ">
+                Annetcom Technologies is software development company located in
+                Osogbo, Osun State. This website showcases the company goals,
+                aims and services.
+              </p>
+            </div>
+          </div>
+
+          {/* project2 */}
           <div className="space-y-2">
             <div className=" border border-purple-300 rounded-lg p-5 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
               <div>
@@ -53,8 +81,7 @@ const MoreProjects = () => {
             </div>
           </div>
 
-          {/* project2 */}
-
+          {/* project3 */}
           <div className="space-y-2">
             <div className=" border border-purple-300 rounded-lg p-7 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
               <div>
@@ -80,8 +107,7 @@ const MoreProjects = () => {
             </div>
           </div>
 
-          {/* project3 */}
-
+          {/* project4 */}
           <div className="space-y-2">
             <div className=" border border-purple-300 rounded-lg p-5 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
               <div>
@@ -108,34 +134,7 @@ const MoreProjects = () => {
               </p>
             </div>
           </div>
-
           {/* project4 */}
-          <div className="space-y-2">
-            <div className=" border border-purple-300 rounded-lg p-5 flex justify-center items-center gap-4 hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer">
-              <div>
-                <img src={ProjectImg4} alt="" className="p-1" />
-              </div>
-            </div>
-            <div>
-              <p className="flex items-center font-semibold text-lg">
-                Music Player App
-                <a
-                  rel="noopener"
-                  target="_blank"
-                  href="https://music-player-fawn-rho.vercel.app/"
-                  className="text-xl text-purple-700 font-bold"
-                >
-                  <FiArrowUpRight />
-                </a>
-              </p>
-              <p className="text-md font-medium text-gray-500 ">
-                This music player website is a music streaming website that
-                comprises of advanced features depending on user's preference
-              </p>
-            </div>
-          </div>
-
-          
         </motion.div>
       </div>
 
@@ -144,6 +143,6 @@ const MoreProjects = () => {
       </button>
     </div>
   );
-}
+};
 
-export default MoreProjects
+export default MoreProjects;

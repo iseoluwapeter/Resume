@@ -1,4 +1,3 @@
-
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
@@ -33,7 +32,7 @@ const Footer = () => {
 
         <div className="text-gray-600 border-t-2 border-gray-300 py-2 flex pb-3 ">
           <p className="text-center text-sm md:text-[15px] pb-2">
-            2024 All Right Reserved. Made by Peter Oyerinde
+            2025 All Right Reserved. Made by Peter Oyerinde
           </p>
         </div>
       </div>
