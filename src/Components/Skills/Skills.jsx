@@ -37,10 +37,10 @@ const Skills = () => {
           <div className="border border-gray-600 rounded-lg p-5  hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer flex flex-col justify-center items-center">
             <p className="font-semibold text-xl">Frontend</p>
             <p>
-              React <br />
-              Javacript
-              <br />
-              CSS <br />
+              React.js <br />
+              Javascript <br />
+              Typescript <br />
+              Tawilwind CSS <br />
             </p>
           </div>
 

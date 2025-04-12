@@ -1,11 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-// import Navbar from "./Components/Navbar/Navbar";
 
-// import About from "./Components/Pages/About";
-// import Project from "./Components/Pages/Project";
-// import Contact from './Components/Pages/Contact'
-const LazyProject = React.lazy(() => import("./Components/Projects/Projects"));
+const Projects = React.lazy(() => import("./Components/Pages/Projects"));
 const Home = React.lazy(() => import("./Components/Pages/Home"));
 
 const App = () => {
@@ -14,9 +10,7 @@ const App = () => {
       {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="about" element={<About />} /> */}
-        <Route path="project" element={<LazyProject />} />
-        {/* <Route path='contact' element={<Contact/>}/> */}
+        <Route path="/project" element={<Projects />} />
       </Routes>
     </div>
   );
