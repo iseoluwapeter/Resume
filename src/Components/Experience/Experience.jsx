@@ -24,7 +24,7 @@ const Experience = () => {
           </div>
 
           <div className="text-gray-600 md:text-2xl ">
-            Frontend Developer
+            Fullstack Developer
             {/* <span className="text-purple-600 font-semibold">@ Treesoft NG</span> */}
           </div>
         </div>

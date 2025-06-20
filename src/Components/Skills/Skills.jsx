@@ -18,13 +18,12 @@ const Skills = () => {
         initial={{ opacity: 0, x: -200 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{
-          type:"spring",
-          stiffness:100,
-          delay: 0.4
+          type: "spring",
+          stiffness: 100,
+          delay: 0.4,
         }}
-        
       >
-        <div className="grid grid-cols-1 md:grid-cols-3 text-center gap-5 ">
+        <div className="grid grid-cols-1 md:grid-cols-4 text-center gap-5 ">
           <div className="border border-gray-600 rounded-lg p-5  hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer flex flex-col justify-center items-center">
             <p className="font-semibold text-xl">Graphics</p>
             <p>
@@ -41,6 +40,18 @@ const Skills = () => {
               Javascript <br />
               Typescript <br />
               Tawilwind CSS <br />
+            </p>
+          </div>
+
+          <div className="border border-gray-600 rounded-lg p-5  hover:!scale-105 hover:!shadow-xl duration-200 cursor-pointer flex flex-col justify-center items-center">
+            <p className="font-semibold text-xl">Backend</p>
+            <p>
+              Python
+              <br />
+              FastAPI
+              <br />
+              MySQL
+              <br />
             </p>
           </div>
 

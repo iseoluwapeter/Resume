@@ -19,11 +19,12 @@ const Hero = () => {
             Hey, I{"'"}m Peter
           </motion.p>
           <p className="text-6xl font-bold md:text-5xl lg:text-7xl md:gap-5 ">
-            <span className="text-purple-700">Front</span>end Developer
+            <span className="text-purple-700">Full</span>stack Developer
           </p>
           <p className="text-gray-600  lg:text-xl  ">
-            I am frontend developer based in Nigeria. I will help you design
-            websites your users would love
+            I'm a Fullstack Developer based in Nigeria. I build responsive,
+            user-friendly websites and powerful backend systems to deliver
+            complete, seamless web experiences.
           </p>
 
           {/* CTA buttons  */}
@@ -37,9 +38,9 @@ const Hero = () => {
             >
               Get in touch
             </a>
-            <button className="border border-purple-700 rounded-lg p-2 px-3">
+            {/* <button className="border border-purple-700 rounded-lg p-2 px-3">
               <NavLink to="/Project">Browse Project</NavLink>
-            </button>
+            </button> */}
           </div>
         </div>
         {/* Hero image  */}

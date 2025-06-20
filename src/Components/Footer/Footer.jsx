@@ -12,7 +12,7 @@ const Footer = () => {
           </p>
 
           {/* CTA buttons  */}
-          <div className="flex justify-start gap-3 ">
+          <div className="flex justify-center ">
             <a
               href="mailto:peteroluwa2019@gmail.com"
               aria-label="mymail"
@@ -22,9 +22,9 @@ const Footer = () => {
             >
               Get in touch
             </a>
-            <button className="border border-purple-700 rounded-lg p-2 px-3">
+            {/* <button className="border border-purple-700 rounded-lg p-2 px-3">
               <NavLink to="/Project">Browse Project</NavLink>
-            </button>
+            </button> */}
           </div>
         </div>
 

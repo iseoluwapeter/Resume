@@ -19,27 +19,26 @@ const MyStory = () => {
       >
         <p>
           My journey into as a{" "}
-          <span className="text-purple-700">front-end developer</span> started
-          back in 2022. I started my journey as a student programmer developing
-          custom websites with just css and Javascript
+          <span className="text-purple-700">developer</span> started back in
+          2022. I started my journey as a student programmer developing custom
+          websites with just css and Javascript
         </p>
 
         <p>
-          I proceeded to learning{" "}
+          I proceeded to learning frontend development with{" "}
           <span className="text-purple-700">react.js</span> which gave me the
           oppurtunity to start putting in for freelance jobs
         </p>
         <p>
           After some months of working for a{" "}
           <span className="text-purple-700">photography brand</span>. I decided
-          to transition to <span className="text-purple-700">Treesoft</span>{" "}
-          which has helped me to really do what i love as a front-end developer
+          to transition to solving real problems integrating backend which really helped me  do what I love as a developer
         </p>
 
         <p>
-          All these oppurtunities to work has helped me gain more experince in
-          this field in which I am still looking forward to learning more. And
-          you know what? I love what i do!
+          All these opportunities have helped me harness valuable experience in
+          this field. I'm still eager to keep learning and you know what? I
+          truly love what I do!
         </p>
       </motion.div>
     </div>

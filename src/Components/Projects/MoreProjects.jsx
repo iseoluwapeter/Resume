@@ -27,9 +27,9 @@ const MoreProjects = () => {
         </motion.div>
       </div>
 
-      <button className="border border-gray-400 flex rounded px-3 py-2 text-gray-500 mx-auto hover:text-white hover:bg-purple-700">
+      {/* <button className="border border-gray-400 flex rounded px-3 py-2 text-gray-500 mx-auto hover:text-white hover:bg-purple-700">
         <Link to="/project">View more projects</Link>
-      </button>
+      </button> */}
     </div>
   );
 };
