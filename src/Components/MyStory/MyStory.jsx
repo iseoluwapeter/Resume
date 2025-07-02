@@ -18,7 +18,7 @@ const MyStory = () => {
         transition={{ duration: 1, ease: "easeOut" }} // Smooth transition
       >
         <p>
-          My journey into as a{" "}
+          My journey as a{" "}
           <span className="text-purple-700">developer</span> started back in
           2022. I started my journey as a student programmer developing custom
           websites with just css and Javascript
@@ -30,7 +30,7 @@ const MyStory = () => {
           oppurtunity to start putting in for volunteer jobs
         </p>
         <p>
-          After months of working for a{" "}
+          After months of working as a{" "}
           <span className="text-purple-700">volunteer</span>. I decided
           to transition to solving real problems integrating backend which really helped me  do what I love as a developer
         </p>
