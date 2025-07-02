@@ -13,7 +13,7 @@ const projectsDetails = [
     title: "Anettcom Technologies",
     img: ProjectImg6,
     description:
-      "  Annetcom Technologies is a software development company located in Osogbo, Osun State. This website showcases the company goals, vision and services.",
+      "  Anettcom Technologies is a software development company located in Osogbo, Osun State. This website showcases the company goals, vision and services.",
     link: "https://anettcom.com/",
   },
 
