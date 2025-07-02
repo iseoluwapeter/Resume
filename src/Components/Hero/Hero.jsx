@@ -19,7 +19,7 @@ const Hero = () => {
             Hey, I{"'"}m Peter
           </motion.p>
           <p className="text-6xl font-bold md:text-5xl lg:text-7xl md:gap-5 ">
-            <span className="text-purple-700">Front</span>stack Developer
+            <span className="text-purple-700">Front</span>end Developer
           </p>
           <p className="text-gray-600  lg:text-xl  ">
             I'm a Frontend Developer based in Nigeria. I build responsive,
