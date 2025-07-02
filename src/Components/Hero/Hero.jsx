@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { SlideUp } from "../Utility/animation,jsx";
-import HeroImg from "../../assets/IMG-20241114-WA0020.jpg";
+import HeroImg from "../../assets/head_image.jpg"
 import { NavLink } from "react-router-dom";
 
 const Hero = () => {
