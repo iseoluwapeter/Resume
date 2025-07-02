@@ -17,16 +17,16 @@ const projectsDetails = [
     link: "https://anettcom.com/",
   },
 
+  // {
+  //   id: 2,
+  //   title: "Pemike Transport",
+  //   img: ProjectImg8,
+  //   description:
+  //     "A transport and logistics company focused on delivering smooth and reliable services. This project helped Pemike Transport improve customer experience by making it easier to book transport and manage freight services efficiently.",
+  //   link: "https://pemiketransport.org/",
+  // },
   {
     id: 2,
-    title: "Pemike Transport",
-    img: ProjectImg8,
-    description:
-      "A transport and logistics company focused on delivering smooth and reliable services. This project helped Pemike Transport improve customer experience by making it easier to book transport and manage freight services efficiently.",
-    link: "https://pemiketransport.org/",
-  },
-  {
-    id: 3,
     title: "JAT Photography",
     img: ProjectImg7,
     description:
@@ -34,12 +34,20 @@ const projectsDetails = [
     link: "https://jat-photography-website.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Sapphire Estate",
     img: ProjectImg3,
     description:
       "A real estate agency focused on transforming the housing industry in Nigeria. The project supports their mission to help millions become homeowners by 2026 through accessible property listings and housing solutions",
     link: "https://my-sapphire-estate.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Weather Forecast App",
+    img: ProjectImg5,
+    description:
+      "This weather forecast app displays the weather condition of the city requested by the user. This project makes use of Redux for state management and Axios for data fetching",
+    link: "https://weather-app-ly.vercel.app/",
   },
   {
     id: 5,

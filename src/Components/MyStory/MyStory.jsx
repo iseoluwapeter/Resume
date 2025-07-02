@@ -27,11 +27,11 @@ const MyStory = () => {
         <p>
           I proceeded to learning frontend development with{" "}
           <span className="text-purple-700">react.js</span> which gave me the
-          oppurtunity to start putting in for freelance jobs
+          oppurtunity to start putting in for volunteer jobs
         </p>
         <p>
-          After some months of working for a{" "}
-          <span className="text-purple-700">photography brand</span>. I decided
+          After months of working for a{" "}
+          <span className="text-purple-700">volunteer</span>. I decided
           to transition to solving real problems integrating backend which really helped me  do what I love as a developer
         </p>
 
