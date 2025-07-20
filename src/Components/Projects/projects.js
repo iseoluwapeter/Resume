@@ -5,7 +5,8 @@ import ProjectImg4 from "../../assets/spotify.png";
 import ProjectImg5 from "../../assets/Screenshot 2025-01-30 005032.png";
 import ProjectImg6 from "../../assets/anett.png";
 import ProjectImg7 from "../../assets/jat_photo.png";
-import ProjectImg8 from "../../assets/pemike.png"
+import ProjectImg8 from "../../assets/inventory.png"
+
 
 const projectsDetails = [
   {
@@ -17,14 +18,6 @@ const projectsDetails = [
     link: "https://anettcom.com/",
   },
 
-  // {
-  //   id: 2,
-  //   title: "Pemike Transport",
-  //   img: ProjectImg8,
-  //   description:
-  //     "A transport and logistics company focused on delivering smooth and reliable services. This project helped Pemike Transport improve customer experience by making it easier to book transport and manage freight services efficiently.",
-  //   link: "https://pemiketransport.org/",
-  // },
   {
     id: 2,
     title: "JAT Photography",
@@ -35,11 +28,11 @@ const projectsDetails = [
   },
   {
     id: 3,
-    title: "Sapphire Estate",
-    img: ProjectImg3,
+    title: "Mini store inventory",
+    img: ProjectImg8,
     description:
-      "A real estate agency focused on transforming the housing industry in Nigeria. The project supports their mission to help millions become homeowners by 2026 through accessible property listings and housing solutions",
-    link: "https://my-sapphire-estate.vercel.app/",
+      "An inventory management system tailored for mini stores. Easily track and record orders, helping stores stay organized and on top of thier stock levels.",
+    link: "https://inventory-one-wheat.vercel.app/",
   },
   {
     id: 4,
